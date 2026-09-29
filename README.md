@@ -114,6 +114,31 @@ Barcode Detection
 Barcode Number
   ↓
 Product Lookup
+---
+
+## 🌐 Open Food Facts API
+
+The application uses the Open Food Facts API to retrieve food-product information using the detected barcode.
+
+After a barcode is detected, the barcode number is sent to the API. The application can then retrieve available product information such as:
+
+- Product name
+- Ingredients
+- Nutritional values
+- Nutri-Score information
+- Other available product details
+
+The availability of information depends on whether the scanned product is present in the Open Food Facts database.
+---
+
+## 🏷️ Nutri-Score
+
+The application retrieves Nutri-Score information from the Open Food Facts API when it is available for the scanned product.
+
+The Nutri-Score provides a quick indication of the nutritional quality of a food product and can help users understand the product's nutritional information more easily.
+
+---
+
 ## 📸 Screenshots
 
 ### Scanner Interface
