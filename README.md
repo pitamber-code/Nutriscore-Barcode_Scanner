@@ -94,6 +94,26 @@ Web Interface
 - Git
 - GitHub
 - Local Flask development server
+---
+
+## 🔎 Barcode Detection
+
+The application uses the device camera to capture frames and sends the captured image data to the Flask backend.
+
+The backend processes the image and attempts to detect a food-product barcode. When a barcode is successfully detected, the barcode number is extracted and used for product lookup.
+
+### Detection Flow
+
+```text
+Camera
+  ↓
+Captured Frame
+  ↓
+Barcode Detection
+  ↓
+Barcode Number
+  ↓
+Product Lookup
 ## 📸 Screenshots
 
 ### Scanner Interface
