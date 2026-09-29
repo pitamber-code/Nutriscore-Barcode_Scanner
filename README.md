@@ -203,6 +203,18 @@ Displayed to User
 I worked on the development of the NutriScore Barcode Scanner, including the Flask application structure, camera-based barcode scanning workflow, barcode detection integration, product information retrieval, and presentation of nutrition information.
 
 I also worked on running and testing the application locally and troubleshooting the flow between the browser camera, Flask backend, barcode detection, and product API.
+---
+
+## 🚀 Future Improvements
+
+- Improve barcode detection accuracy under different lighting and camera conditions.
+- Add manual barcode entry as a fallback.
+- Support additional barcode formats.
+- Improve handling of products with incomplete information.
+- Add automated tests for barcode detection and API responses.
+- Add product comparison features.
+- Improve the mobile camera experience.
+- Deploy a public production version.
 ## 📸 Screenshots
 
 ### Scanner Interface
