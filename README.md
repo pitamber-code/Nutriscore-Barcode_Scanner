@@ -165,6 +165,26 @@ Start the Flask development server:
 
 ```bash
 python app.py
+---
+
+## 🔍 Example
+
+### Input
+
+A packaged food product with a barcode.
+
+### Processing
+
+```text
+Barcode
+   ↓
+Open Food Facts API
+   ↓
+Product Information
+   ↓
+Nutrition / Nutri-Score Data
+   ↓
+Displayed to User
 ## 📸 Screenshots
 
 ### Scanner Interface
