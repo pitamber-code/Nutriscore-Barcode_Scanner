@@ -42,7 +42,36 @@ Result displayed to the user
 - 💻 Separate local and production project configurations
 
 ---
+## 🏗️ Architecture / How It Works
 
+The application follows a simple client-server architecture:
+
+1. **Camera Input** – The browser accesses the device camera.
+2. **Frame Capture** – Camera frames are captured continuously.
+3. **Barcode Detection** – Captured frames are sent to the Flask backend for barcode detection.
+4. **Barcode Extraction** – When a barcode is detected, its numeric value is extracted.
+5. **Product Lookup** – The barcode is used to retrieve product information from the food-product API.
+6. **Nutrition Data** – Available nutritional information and Nutri-Score data are extracted from the API response.
+7. **Result Display** – The product and nutrition information is returned to the web interface.
+
+### Architecture Flow
+
+```text
+Browser Camera
+      ↓
+Camera Frames
+      ↓
+Flask Backend
+      ↓
+Barcode Detection
+      ↓
+Barcode Number
+      ↓
+Food Product API
+      ↓
+Product / Nutrition Data
+      ↓
+Web Interface
 ## 📸 Screenshots
 
 ### Scanner Interface
