@@ -196,6 +196,13 @@ Displayed to User
 - Camera permission is required.
 - Internet connectivity is required for product lookup.
 - The project currently uses Flask's development server for local execution.
+---
+
+## 👨‍💻 My Contribution
+
+I worked on the development of the NutriScore Barcode Scanner, including the Flask application structure, camera-based barcode scanning workflow, barcode detection integration, product information retrieval, and presentation of nutrition information.
+
+I also worked on running and testing the application locally and troubleshooting the flow between the browser camera, Flask backend, barcode detection, and product API.
 ## 📸 Screenshots
 
 ### Scanner Interface
