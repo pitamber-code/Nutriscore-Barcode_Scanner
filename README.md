@@ -139,6 +139,32 @@ The Nutri-Score provides a quick indication of the nutritional quality of a food
 
 ---
 
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/pitamber-code/Nutriscore-Barcode_Scanner.git
+cd Nutriscore-Barcode_Scanner
+### 2. Install dependencies
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+
+
+
+
+
+### 3. Run the application
+
+Start the Flask development server:
+
+```bash
+python app.py
 ## 📸 Screenshots
 
 ### Scanner Interface
