@@ -47,7 +47,6 @@ Result displayed to the user
 
 ### Scanner Interface
 
-Add a screenshot of the running application here.
 
-```text
-Screenshot: Camera scanner interface
+
+![NutriScore Scanner](nutriscore-scanner.png)
