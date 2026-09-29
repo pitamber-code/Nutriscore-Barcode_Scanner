@@ -72,6 +72,28 @@ Food Product API
 Product / Nutrition Data
       ↓
 Web Interface
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Browser Camera API
+
+### Backend
+- Python
+- Flask
+- OpenCV
+
+### API
+- Open Food Facts API
+
+### Development
+- Git
+- GitHub
+- Local Flask development server
 ## 📸 Screenshots
 
 ### Scanner Interface
