@@ -185,6 +185,17 @@ Product Information
 Nutrition / Nutri-Score Data
    ↓
 Displayed to User
+---
+
+## ⚠️ Known Limitations
+
+- Barcode detection depends on camera quality, lighting, barcode size, and positioning.
+- Small or curved barcodes may be difficult to detect.
+- Products not available in Open Food Facts may not return complete information.
+- Product information depends on external API data.
+- Camera permission is required.
+- Internet connectivity is required for product lookup.
+- The project currently uses Flask's development server for local execution.
 ## 📸 Screenshots
 
 ### Scanner Interface
