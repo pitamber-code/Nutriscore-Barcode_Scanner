@@ -151,7 +151,7 @@ cd Nutriscore-Barcode_Scanner
 Install the required Python packages:
 
 ```bash
-pip install -r requirements.txt
+pip install flask opencv-python numpy pyzbar requests
 ```
 
 
